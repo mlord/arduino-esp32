@@ -1,15 +1,3 @@
-Make your question, not a Statement, inclusive. Include all pertinent information:
-
-What you are trying to do  
-Describe your system (Hardware, computer, O/S, core version, environment)  
-Describe what is failing  
-Show the shortest possible code that will duplicate the error  
-Show the EXACT error message (it doesn't work is not enough)  
-Then if someone is interested and knowledgeable you might get a answer.  All of this work on your part shows us that you have worked to solve YOUR problem. The more complete your issue posting is, the more likely someone will volunteer their time to help you.
-
-If you have a Guru Meditation Error or Backtrace, ***please decode it***:
-[ExceptionDecoder](https://github.com/me-no-dev/EspExceptionDecoder)
-
 ----------------------------- Remove above -----------------------------
 
 
@@ -25,7 +13,9 @@ If you have a Guru Meditation Error or Backtrace, ***please decode it***:
 |<B>Computer OS</B>|Windows 10|Mac OSX|Ubuntu|
 
 ### Description:
-Describe your problem here
+dhcps debug messages are appearing on the Serial port, preventing the port from being used for other purposes.
+These should be disabled by default, but instead are enabled.  Eg.
+     dhcps: send_nak>>udp_sendto result 0
 
 
 ### Sketch:  (leave the backquotes for [code formatting](https://help.github.com/articles/creating-and-highlighting-code-blocks/))
